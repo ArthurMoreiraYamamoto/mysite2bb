@@ -51,7 +51,7 @@ export function TaskContextProvider(props) {
     const contexto = {
         tarefas: minhasTarefas,
         insereTarefa: inserir,
-        modificarTarefa: modificar,
+        modificaTarefa: modificar,
         removeTarefa: remover,
         listaTarefas: listar,
     }
